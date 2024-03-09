@@ -51,8 +51,7 @@ jobs:
         if: always()
         run: exit $CHECK_STATUS
 
-
-         validate: # <--- This is the new job
+  validate: # <-another -
     runs-on: ubuntu-latest
     name: Terraform validate
     outputs:
